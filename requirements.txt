@@ -1,0 +1,3 @@
+# O bot usa apenas a biblioteca padrão do Python (3.10+).
+# Opcional: gerador de QR Code local (.qr)
+segno>=1.6

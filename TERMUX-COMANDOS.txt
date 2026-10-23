@@ -1,0 +1,78 @@
+ROBÔ NICOLAS 🤖 — COMANDOS NO TERMUX
+===================================
+
+1) Atualize o Termux e instale os requisitos:
+
+pkg update && pkg upgrade -y
+pkg install -y python nodejs-lts git unzip ffmpeg
+
+2) Acesse os arquivos do Android (o Termux solicitará permissão):
+
+termux-setup-storage
+
+3) Se o ZIP estiver na pasta Downloads, descompacte-o dentro da pasta privada do Termux:
+
+unzip -o /sdcard/Download/Robo-Nicolas-atualizado.zip -d ~
+cd ~/Robo-Nicolas
+
+Não execute o bot dentro de /sdcard/Download. O banco SQLite e a sessão do WhatsApp devem ficar na pasta privada do Termux.
+
+4) Instale e verifique o projeto:
+
+bash install.sh
+
+Durante a instalação, informe o número do dono se quiser; use DDI + DDD, somente dígitos. Na primeira inicialização,
+o bot pedirá o método de conexão e o número da conta de WhatsApp que será conectada.
+
+5) Configurar OpenRouter (ou outro provedor; a chave não é incluída neste ZIP):
+
+Abra https://openrouter.ai/keys no navegador e crie uma chave. No Termux, rode (troque o modelo pelo ID exato do catálogo OpenRouter):
+
+python3 -m nicolas ia --provider openrouter --model "ID-EXATO-DO-MODELO"
+
+Cole a chave quando o prompt pedir; a digitação fica oculta. O comando salva a chave no arquivo local .env e tenta testar a conexão.
+Nunca envie a chave em grupos, prints ou mensagens. Para listar os modelos que a API retorna e testar texto:
+
+python3 -m nicolas modelos
+python3 -m nicolas aitest
+
+Para trocar o modelo, repita o primeiro comando com outro ID. Também são suportados `openai`, `groq`, `deepseek`, `together`, `anthropic`, `gemini` e `openai-compatible` (API personalizada). Consulte `docs/PROVEDORES-IA.md`. A disponibilidade e os custos dependem do provedor, modelo e conta; os testes automatizados não substituem um teste real da API.
+
+6) Iniciar o bot e conectar o WhatsApp:
+
+bash start.sh
+
+Siga o código de pareamento ou QR exibido. A sessão autorizada fica na pasta auth/ local e não deve ser compartilhada.
+
+7) No grupo do WhatsApp:
+
+/ativaesperto
+
+Um administrador do grupo deve ativar o modo. Quando ativo, o bot responde às mensagens dos participantes e às mensagens
+normais do dono no grupo, respeitando o limite por minuto. Para desligar:
+
+/desligaresperto
+
+8) Diagnóstico e reinício:
+
+python3 -m nicolas check
+python3 -m nicolas aitest
+python3 -m nicolas test
+cd bridge && node --test test/lib.test.js
+
+Para parar o bot, pressione Ctrl+C. Na próxima inicialização use `cd ~/Robo-Nicolas && bash start.sh`.
+Para rodar em segundo plano, depois de autenticar uma vez: `bash start-bg.sh`; para parar: `bash stop.sh`.
+
+LIMITAÇÕES IMPORTANTES
+- A integração Baileys envia mensagens e mídia, mas não implementa chamadas de voz/vídeo; o bot informa essa limitação.
+- Áudio e imagem dependem de provedor/modelo compatível; mensagens de voz reais podem exigir ffmpeg: pkg install ffmpeg.
+- O ZIP não inclui .env, a chave da API, banco de dados, backups, auth/ ou node_modules. Isso evita publicar segredos e dados locais.
+- Ao iniciar com um banco existente, o bootstrap cria backup antes de alterar os saldos iniciais. Não apague data/ durante uma atualização.
+
+6) VOZ (áudio) — modelos do OpenRouter/Groq só escrevem texto; a voz é um motor à parte:
+
+pkg install -y espeak ffmpeg
+python3 -m nicolas voz --motor local
+python3 -m nicolas aitest --tudo
+
+Depois reinicie: bash stop.sh && bash start-bg.sh

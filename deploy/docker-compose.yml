@@ -1,0 +1,13 @@
+# Uso (na pasta do projeto):  docker compose -f deploy/docker-compose.yml up -d --build
+# O .env, a sessão (auth/), o banco e os logs ficam em volumes, fora da imagem.
+services:
+  nicolas:
+    build: { context: .., dockerfile: deploy/Dockerfile }
+    restart: always
+    stdin_open: true
+    tty: true
+    volumes:
+      - ../.env:/app/.env
+      - ../auth:/app/auth
+      - ../data:/app/data
+      - ../logs:/app/logs

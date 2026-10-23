@@ -1,0 +1,1222 @@
+2026-10-18 18:44:50,445 WARNING nicolas.esperto: modo esperto: IA indisponível (o serviço demorou demais para responder)
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 56964)
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/http/server.py", line 496, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/http/server.py", line 484, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "/data/data/com.termux/files/home/Robo-Nicolas/nicolas/server.py", line 85, in do_POST
+    self._send(200, {"replies": [r.to_dict() for r in replies]})
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/Robo-Nicolas/nicolas/server.py", line 33, in _send
+    self.wfile.write(body)
+    ~~~~~~~~~~~~~~~~^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/socketserver.py", line 845, in write
+    self._sock.sendall(b)
+    ~~~~~~~~~~~~~~~~~~^^^
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+2026-10-18 18:48:24,687 WARNING nicolas.esperto: modo esperto: IA indisponível (o serviço respondeu com erro HTTP 429)
+2026-10-18 18:53:29,235 WARNING nicolas.esperto: modo esperto: IA indisponível (o serviço respondeu com erro HTTP 429)
+2026-10-18 18:53:34,289 WARNING nicolas.esperto: modo esperto: IA indisponível (o serviço respondeu com erro HTTP 429)
+2026-10-18 18:53:44,988 WARNING nicolas.esperto: modo esperto: IA indisponível (o serviço respondeu com erro HTTP 429)
+2026-10-18 18:53:58,700 WARNING nicolas.esperto: modo esperto: IA indisponível (o serviço respondeu com erro HTTP 429)
+2026-10-18 18:54:04,961 WARNING nicolas.esperto: modo esperto: IA indisponível (o serviço respondeu com erro HTTP 429)
+2026-10-18 18:54:39,905 WARNING nicolas.esperto: modo esperto: IA indisponível (o serviço respondeu com erro HTTP 429)
+2026-10-18 18:55:17,773 WARNING nicolas.esperto: modo esperto: IA indisponível (o serviço respondeu com erro HTTP 429)
+2026-10-18 18:55:22,420 WARNING nicolas.esperto: modo esperto: IA indisponível (o serviço respondeu com erro HTTP 429)
+2026-10-18 18:55:40,306 WARNING nicolas.esperto: modo esperto: IA indisponível (o serviço respondeu com erro HTTP 429)
+2026-10-18 18:55:53,658 WARNING nicolas.esperto: modo esperto: IA indisponível (o serviço respondeu com erro HTTP 429)
+2026-10-18 19:00:40,825 WARNING nicolas.esperto: modo esperto: IA indisponível (o serviço respondeu com erro HTTP 429)
+2026-10-18 19:00:53,908 WARNING nicolas.esperto: modo esperto: IA indisponível (o serviço respondeu com erro HTTP 429)
+2026-10-18 19:02:08,645 WARNING nicolas.esperto: modo esperto: IA indisponível (o serviço respondeu com erro HTTP 429)
+2026-10-18 19:02:24,725 WARNING nicolas.esperto: modo esperto: IA indisponível (o serviço respondeu com erro HTTP 429)
+2026-10-18 19:02:44,189 WARNING nicolas.esperto: modo esperto: IA indisponível (o serviço respondeu com erro HTTP 429)
+2026-10-18 19:03:18,701 WARNING nicolas.esperto: modo esperto: IA indisponível (o serviço respondeu com erro HTTP 429)
+2026-10-18 19:04:30,304 WARNING nicolas.esperto: modo esperto: IA indisponível (o serviço respondeu com erro HTTP 429)
+2026-10-19 00:53:24,438 INFO nicolas.backup: backup do banco salvo em nicolas-20261019-005324.db
+2026-10-19 05:59:01,450 INFO nicolas.backup: backup do banco salvo em nicolas-20261019-055901.db
+2026-10-19 11:59:01,501 INFO nicolas.backup: backup do banco salvo em nicolas-20261019-115901.db
+2026-10-20 06:37:20,485 INFO nicolas.backup: backup do banco salvo em nicolas-20261020-063720.db
+2026-10-20 12:37:20,534 INFO nicolas.backup: backup do banco salvo em nicolas-20261020-123720.db
+2026-10-20 13:23:54,407 WARNING nicolas.esperto: modo esperto: IA indisponível (o serviço respondeu com erro HTTP 503)
+2026-10-20 13:51:48,893 INFO nicolas.backup: backup do banco salvo em nicolas-20261020-135148.db
+2026-10-20 13:52:20,301 INFO nicolas.backup: backup do banco salvo em nicolas-20261020-135220.db
+2026-10-20 14:25:46,669 WARNING nicolas.esperto: modo esperto: IA indisponível (o serviço respondeu com erro HTTP 307)
+2026-10-20 14:27:25,594 WARNING nicolas.esperto: modo esperto: IA indisponível (o serviço respondeu com erro HTTP 307)
+2026-10-20 14:27:41,222 WARNING nicolas.esperto: modo esperto: IA indisponível (o serviço respondeu com erro HTTP 307)
+2026-10-20 14:27:59,400 WARNING nicolas.esperto: modo esperto: IA indisponível (o serviço respondeu com erro HTTP 307)
+2026-10-20 14:28:51,688 WARNING nicolas.esperto: modo esperto: IA indisponível (o serviço respondeu com erro HTTP 307)
+2026-10-20 14:29:57,537 WARNING nicolas.esperto: modo esperto: IA indisponível (o serviço respondeu com erro HTTP 307)
+2026-10-20 14:31:15,584 WARNING nicolas.esperto: modo esperto: IA indisponível (o serviço respondeu com erro HTTP 307)
+2026-10-20 14:31:50,240 WARNING nicolas.esperto: modo esperto: IA indisponível (o serviço respondeu com erro HTTP 307)
+2026-10-20 14:31:58,394 WARNING nicolas.esperto: modo esperto: IA indisponível (o serviço respondeu com erro HTTP 307)
+2026-10-20 14:33:55,106 WARNING nicolas.esperto: modo esperto: IA indisponível (o serviço respondeu com erro HTTP 307)
+2026-10-20 14:34:11,173 WARNING nicolas.esperto: modo esperto: IA indisponível (o serviço respondeu com erro HTTP 307)
+2026-10-20 14:34:24,817 WARNING nicolas.esperto: agente: IA indisponível (o serviço respondeu com erro HTTP 307)
+2026-10-20 14:34:45,231 WARNING nicolas.esperto: modo esperto: IA indisponível (o serviço respondeu com erro HTTP 307)
+2026-10-20 14:34:49,699 WARNING nicolas.esperto: modo esperto: IA indisponível (o serviço respondeu com erro HTTP 307)
+2026-10-20 14:34:50,148 WARNING nicolas.esperto: modo esperto: IA indisponível (o serviço respondeu com erro HTTP 307)
+2026-10-20 14:35:12,315 WARNING nicolas.esperto: modo esperto: IA indisponível (o serviço respondeu com erro HTTP 307)
+2026-10-20 14:35:23,483 WARNING nicolas.esperto: modo esperto: IA indisponível (o serviço respondeu com erro HTTP 307)
+2026-10-20 14:36:03,659 WARNING nicolas.esperto: modo esperto: IA indisponível (o serviço respondeu com erro HTTP 307)
+2026-10-20 14:36:09,045 WARNING nicolas.esperto: modo esperto: IA indisponível (o serviço respondeu com erro HTTP 307)
+2026-10-20 14:39:08,462 WARNING nicolas.esperto: modo esperto: IA indisponível (o serviço respondeu com erro HTTP 307)
+2026-10-20 14:48:53,395 INFO nicolas.backup: backup do banco salvo em nicolas-20261020-144853.db
+2026-10-20 16:39:47,506 INFO nicolas.backup: backup do banco salvo em nicolas-20261020-163947.db
+2026-10-20 16:48:16,230 WARNING nicolas.esperto: modo esperto: IA indisponível (a IA não retornou texto)
+2026-10-20 16:58:50,101 INFO nicolas.backup: backup do banco salvo em nicolas-20261020-165850.db
+2026-10-20 16:59:28,329 INFO nicolas.backup: backup do banco salvo em nicolas-20261020-165928.db
+2026-10-20 17:01:18,665 INFO nicolas: DM de ...0230 ignorada: modo esperto desligado nesta conversa (o dono liga com /ativaesperto nela, ou /espertodm on para todas)
+2026-10-20 17:06:49,029 INFO nicolas.backup: backup do banco salvo em nicolas-20261020-170649.db
+2026-10-21 13:18:28,584 INFO nicolas.backup: backup do banco salvo em nicolas-20261021-131828.db
+2026-10-21 13:20:30,279 INFO nicolas.backup: backup do banco salvo em nicolas-20261021-132030.db
+2026-10-21 13:31:56,194 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:32:00,808 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:32:02,281 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:32:03,279 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:32:04,297 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:32:05,446 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:32:07,635 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:32:08,712 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:32:09,799 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:32:11,094 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:32:12,169 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:32:13,570 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:32:14,538 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:32:15,490 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:32:17,462 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:32:18,871 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:32:21,700 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:32:23,737 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:32:48,833 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:33:15,443 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:33:16,695 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:33:19,488 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:33:22,168 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:33:23,802 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:33:25,292 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:34:36,289 WARNING nicolas.esperto: modo esperto: IA indisponível (a IA não retornou texto)
+2026-10-21 13:36:06,263 WARNING nicolas.esperto: modo esperto: IA indisponível (a IA não retornou texto)
+2026-10-21 13:40:35,120 WARNING nicolas.esperto: modo esperto: IA indisponível (a IA não retornou texto)
+2026-10-21 13:40:52,802 WARNING nicolas.esperto: modo esperto: IA indisponível (a IA não retornou texto)
+2026-10-21 13:40:54,463 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:40:55,557 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:40:56,405 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:40:57,241 WARNING nicolas.esperto: modo esperto: IA indisponível (a IA não retornou texto)
+2026-10-21 13:40:57,307 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:40:58,157 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:40:58,582 WARNING nicolas.esperto: modo esperto: IA indisponível (a IA não retornou texto)
+2026-10-21 13:40:59,129 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:00,063 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:00,575 WARNING nicolas.esperto: modo esperto: IA indisponível (a IA não retornou texto)
+2026-10-21 13:41:01,223 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:02,192 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:03,097 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:04,100 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:04,972 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:12,312 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:15,437 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:16,758 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:18,583 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:19,393 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:28,481 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:29,335 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:31,291 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:32,141 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:33,033 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:33,744 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:34,398 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:34,985 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:36,081 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:36,755 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:36,963 WARNING nicolas.esperto: modo esperto: IA indisponível (a IA não retornou texto)
+2026-10-21 13:41:37,320 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:37,842 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:38,125 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:38,580 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:39,283 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:39,572 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:39,866 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:40,178 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:40,510 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:40,955 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:41,088 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:41,403 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:41,685 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:42,034 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:42,338 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:42,633 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:42,961 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:43,297 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:43,573 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:43,856 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:44,145 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:44,400 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:44,693 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:45,029 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:45,370 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:45,665 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:45,964 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:46,283 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:46,588 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:46,882 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:47,202 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:47,509 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:48,065 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:48,360 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:48,673 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:48,967 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:49,249 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:49,608 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:50,334 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:50,552 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:50,871 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:51,426 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:52,109 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:52,406 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:53,034 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:53,409 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:53,898 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:54,182 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:54,495 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:54,806 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:55,106 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:55,298 WARNING nicolas.esperto: modo esperto: IA indisponível (a IA não retornou texto)
+2026-10-21 13:41:55,386 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:55,771 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:56,105 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:56,569 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:56,586 WARNING nicolas.esperto: modo esperto: IA indisponível (a IA não retornou texto)
+2026-10-21 13:41:56,701 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:56,977 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:57,303 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:57,622 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:57,881 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:58,199 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:58,476 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:58,864 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:59,186 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:59,666 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:41:59,784 WARNING nicolas.esperto: modo esperto: IA indisponível (a IA não retornou texto)
+2026-10-21 13:41:59,785 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:00,078 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:00,416 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:00,666 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:00,870 WARNING nicolas.esperto: modo esperto: IA indisponível (a IA não retornou texto)
+2026-10-21 13:42:01,015 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:01,345 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:01,620 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:01,900 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:02,152 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:02,496 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:02,867 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:03,249 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:03,455 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:03,742 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:04,040 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:04,323 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:04,671 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:04,985 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:05,300 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:05,580 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:05,895 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:06,175 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:06,494 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:06,764 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:07,044 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:07,426 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:07,656 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:07,977 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:08,324 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:08,584 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:09,047 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:09,212 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:09,524 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:09,790 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:10,094 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:10,396 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:10,710 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:11,037 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:11,672 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:11,945 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:12,240 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:12,502 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:12,833 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:13,073 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:13,380 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:13,834 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:14,051 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:14,316 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:14,706 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:14,886 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:15,265 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:15,503 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:15,727 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:16,061 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:16,332 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:16,646 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:16,935 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:17,292 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:17,538 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:17,873 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:18,156 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:18,300 WARNING nicolas.esperto: modo esperto: IA indisponível (a IA não retornou texto)
+2026-10-21 13:42:18,545 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:18,797 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:19,064 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:19,354 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:19,638 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:20,038 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:20,259 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:20,603 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:20,912 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:21,155 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:21,524 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:21,820 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:22,260 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:22,386 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:22,819 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:23,030 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:23,313 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:23,620 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:23,911 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:24,238 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:24,642 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:24,835 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:25,157 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:25,450 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:25,803 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:26,042 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:26,156 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:26,429 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:26,713 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:27,728 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:39,237 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:42:47,240 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:43:00,926 WARNING nicolas.esperto: modo esperto: IA indisponível (a IA não retornou texto)
+2026-10-21 13:44:09,128 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:44:09,367 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:44:09,609 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:44:09,846 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:44:11,411 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:44:11,453 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:44:11,656 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:44:11,727 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:44:11,778 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:44:11,859 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:44:11,877 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:44:12,042 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:44:12,338 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:44:12,687 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:44:12,748 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:44:12,961 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:44:13,164 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:44:13,361 WARNING nicolas.esperto: modo esperto: IA indisponível (a IA não retornou texto)
+2026-10-21 13:44:14,038 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:44:14,057 WARNING nicolas.esperto: modo esperto: IA indisponível (a IA não retornou texto)
+2026-10-21 13:44:14,158 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:44:14,179 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:44:14,262 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:44:14,856 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:44:14,962 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:44:15,004 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:44:15,233 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:44:15,467 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:44:15,732 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:44:15,993 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:44:16,206 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:44:16,405 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:44:16,733 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:44:19,024 WARNING nicolas.esperto: modo esperto: IA indisponível (a IA não retornou texto)
+2026-10-21 13:49:06,022 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:06,356 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:06,712 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:07,121 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:07,261 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:07,542 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:07,854 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:08,133 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:08,449 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:08,728 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:09,061 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:09,368 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:09,702 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:10,011 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:10,367 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:10,662 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:10,946 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:11,233 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:11,525 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:11,853 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:11,936 WARNING nicolas.esperto: modo esperto: IA indisponível (a IA não retornou texto)
+2026-10-21 13:49:12,136 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:12,352 WARNING nicolas.esperto: modo esperto: IA indisponível (a IA não retornou texto)
+2026-10-21 13:49:12,431 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:12,795 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:13,101 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:13,451 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:13,728 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:14,020 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:14,116 WARNING nicolas.esperto: modo esperto: IA indisponível (a IA não retornou texto)
+2026-10-21 13:49:14,303 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:14,606 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:14,903 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:15,228 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:15,591 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:15,909 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:16,232 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:16,616 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:16,901 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:17,193 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:17,638 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:17,829 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:18,116 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:18,465 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:18,796 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:19,057 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:19,364 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:19,663 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:19,962 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:20,246 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:30,017 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:30,308 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:30,680 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:30,952 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:31,209 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:31,516 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:31,840 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:32,167 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:32,442 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:32,859 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:33,048 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:33,297 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:33,616 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:33,932 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:34,245 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:34,562 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:34,871 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:35,273 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:35,473 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:35,825 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:36,114 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:36,362 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:36,641 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:40,817 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:41,116 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:41,461 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:41,818 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:42,109 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:42,448 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:42,749 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:43,028 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:43,376 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:43,668 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:43,947 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:44,263 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:44,625 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:44,883 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:45,109 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:45,411 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:45,704 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:46,001 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:46,320 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:46,602 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:46,959 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:47,318 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:47,673 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:47,865 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:48,167 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:48,455 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:48,770 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:49,020 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:49,326 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:49,669 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:49,935 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:50,247 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:50,495 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:50,825 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:51,121 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:51,449 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:51,744 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:52,036 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:52,390 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:52,691 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:52,962 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:53,299 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:56,167 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:56,502 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:56,817 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:57,100 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:57,394 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:57,695 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:58,001 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:58,306 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:58,618 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:58,899 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:59,238 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:59,520 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:49:59,820 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:00,165 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:00,449 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:00,732 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:01,051 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:01,347 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:01,660 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:02,250 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:02,586 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:02,976 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:03,317 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:03,697 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:03,992 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:04,333 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:06,189 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:06,515 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:07,321 WARNING nicolas.esperto: modo esperto: IA indisponível (a IA não retornou texto)
+2026-10-21 13:50:07,417 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:12,172 WARNING nicolas.esperto: modo esperto: IA indisponível (a IA não retornou texto)
+2026-10-21 13:50:13,683 WARNING nicolas.esperto: modo esperto: IA indisponível (a IA não retornou texto)
+2026-10-21 13:50:17,750 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:18,481 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:18,888 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:19,344 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:19,615 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:20,239 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:20,319 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:20,650 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:20,877 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:21,323 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:21,530 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:21,830 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:22,210 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:22,543 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:22,792 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:23,186 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:23,307 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:23,669 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:23,979 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:24,355 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:24,602 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:24,968 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:25,241 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:25,537 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:25,798 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:26,064 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:26,339 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:26,666 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:26,930 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:27,289 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:27,560 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:27,932 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:28,259 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:28,559 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:28,867 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:29,226 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:29,542 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:29,796 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:30,152 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:30,583 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:30,710 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:31,071 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:31,384 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:31,718 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:31,968 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:32,421 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:32,880 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:32,989 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:33,337 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:33,640 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:33,907 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:34,229 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:34,483 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:34,785 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:35,139 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:35,401 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:35,722 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:36,162 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:36,342 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:36,726 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:36,967 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:37,288 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:37,601 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:37,992 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:38,234 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:38,523 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:38,841 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:39,258 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:39,480 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:39,705 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:39,986 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:40,453 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:40,698 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:41,171 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:41,335 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:41,635 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:41,983 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:42,389 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:42,669 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:42,969 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:43,253 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:43,533 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:43,888 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:44,140 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:44,436 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:44,784 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:45,093 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:45,412 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:45,769 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:49,246 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:49,800 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:50,001 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:50,304 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:50,613 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:50,959 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:51,243 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:51,588 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:51,822 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:52,111 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:52,391 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:52,719 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:53,001 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:53,308 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:53,610 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:53,908 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:54,244 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:54,700 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:54,865 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:55,142 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:55,303 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:55,436 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:55,727 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:56,022 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:56,332 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:56,627 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:57,031 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:57,238 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:57,527 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:57,834 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:58,208 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:58,471 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:58,913 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:59,263 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:50:59,600 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:00,129 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:00,402 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:00,926 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:01,157 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:01,451 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:01,772 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:02,392 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:02,668 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:02,992 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:03,397 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:03,623 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:04,049 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:04,252 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:04,597 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:05,208 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:06,694 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:07,270 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:07,407 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:07,561 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:07,906 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:09,190 WARNING nicolas.esperto: modo esperto: IA indisponível (a IA não retornou texto)
+2026-10-21 13:51:09,899 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:10,456 WARNING nicolas.esperto: modo esperto: IA indisponível (a IA não retornou texto)
+2026-10-21 13:51:11,099 WARNING nicolas.esperto: modo esperto: IA indisponível (a IA não retornou texto)
+2026-10-21 13:51:12,591 WARNING nicolas.esperto: modo esperto: IA indisponível (a IA não retornou texto)
+2026-10-21 13:51:12,827 WARNING nicolas.esperto: modo esperto: IA indisponível (a IA não retornou texto)
+2026-10-21 13:51:13,649 WARNING nicolas.esperto: modo esperto: IA indisponível (a IA não retornou texto)
+2026-10-21 13:51:13,772 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:14,099 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:14,380 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:14,724 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:14,964 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:15,285 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:15,602 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:16,050 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:16,214 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:16,548 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:16,738 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:17,042 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:17,349 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:17,632 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:17,937 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:18,232 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:18,496 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:18,972 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:19,136 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:19,466 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:19,766 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:20,018 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:20,323 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:20,649 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:20,934 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:21,242 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:21,555 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:21,835 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:22,124 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:22,427 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:22,845 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:23,029 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:23,361 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:23,619 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:23,885 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:24,179 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:24,499 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:24,804 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:25,202 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:25,492 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:25,886 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:26,092 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:26,391 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:26,747 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:27,064 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:27,366 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:27,676 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:27,938 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:28,271 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:28,548 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:29,021 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:29,184 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:29,448 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:29,751 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:30,007 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:30,358 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:30,804 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:31,141 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:31,431 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:31,629 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:31,919 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:32,266 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:32,525 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:32,829 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:33,161 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:33,588 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:33,975 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:34,202 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:34,461 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:36,019 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:36,306 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:36,619 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:36,905 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:37,346 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:37,685 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:38,018 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:38,362 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:38,603 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:38,855 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:39,188 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:39,458 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:40,178 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:40,461 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:40,798 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:41,190 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:41,575 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:41,809 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:42,143 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:42,442 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:42,733 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:43,156 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:43,482 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:43,726 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:44,022 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:44,348 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:44,700 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:45,051 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:45,366 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:45,707 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:45,975 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:46,406 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:46,673 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:47,116 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:47,224 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:47,716 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:47,858 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:48,152 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:48,432 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:48,783 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:49,001 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:49,307 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:49,606 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:49,936 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:50,197 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:50,841 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:50,958 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:51,351 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:51,627 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:52,308 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:52,588 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:52,928 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:53,466 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:53,730 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:54,274 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:54,558 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:54,901 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:55,189 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:55,533 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:55,852 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:56,160 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:56,553 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:56,814 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:57,110 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:57,423 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:57,743 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:58,086 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:58,381 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:58,700 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:59,020 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:59,308 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:59,566 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:51:59,878 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:52:00,202 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:52:00,488 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:52:00,769 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:52:01,086 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:52:01,392 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:52:01,760 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:52:02,002 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:52:02,601 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:52:02,908 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:52:03,325 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:52:03,565 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:52:03,843 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:52:04,164 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:52:04,254 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:52:04,428 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:52:04,745 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:52:05,379 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:52:06,036 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:52:07,562 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:52:07,963 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:52:08,270 WARNING nicolas.esperto: modo esperto: IA indisponível (a IA não retornou texto)
+2026-10-21 13:52:08,286 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:52:08,604 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:52:08,871 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:52:09,204 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:52:09,562 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:52:09,795 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:52:10,090 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:52:10,369 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:52:10,682 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:52:11,004 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:52:11,164 WARNING nicolas.esperto: modo esperto: IA indisponível (a IA não retornou texto)
+2026-10-21 13:52:11,250 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:52:11,433 WARNING nicolas.esperto: modo esperto: IA indisponível (a IA não retornou texto)
+2026-10-21 13:52:11,549 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:52:11,873 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:52:12,168 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:52:12,718 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:52:12,793 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:52:13,141 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:52:13,666 WARNING nicolas.esperto: modo esperto: IA indisponível (a IA não retornou texto)
+2026-10-21 13:52:13,734 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:52:14,452 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:52:14,480 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:52:14,612 WARNING nicolas.esperto: modo esperto: IA indisponível (a IA não retornou texto)
+2026-10-21 13:52:14,749 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:52:14,849 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:52:15,113 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:52:15,485 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 13:52:19,089 WARNING nicolas.esperto: modo esperto: IA indisponível (a IA não retornou texto)
+2026-10-21 13:53:38,924 WARNING nicolas.esperto: modo esperto: IA indisponível (a IA não retornou texto)
+2026-10-21 13:55:58,089 INFO nicolas.backup: backup do banco salvo em nicolas-20261021-135558.db
+2026-10-21 14:05:49,441 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:05:52,904 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:05:57,386 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:06:00,474 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:06:04,735 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:09,234 INFO nicolas.backup: backup do banco salvo em nicolas-20261021-141309.db
+2026-10-21 14:13:30,619 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:30,894 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:31,220 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:31,557 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:31,831 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:32,114 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:32,426 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:32,725 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:32,996 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:33,408 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:33,579 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:33,869 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:34,097 WARNING nicolas.esperto: modo esperto: IA indisponível (a IA não retornou texto)
+2026-10-21 14:13:34,447 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:34,488 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:34,543 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:34,793 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:35,085 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:35,385 WARNING nicolas.esperto: modo esperto: IA indisponível (a IA não retornou texto)
+2026-10-21 14:13:35,434 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:35,544 WARNING nicolas.esperto: modo esperto: IA indisponível (a IA não retornou texto)
+2026-10-21 14:13:35,708 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:35,963 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:35,968 WARNING nicolas.esperto: modo esperto: IA indisponível (a IA não retornou texto)
+2026-10-21 14:13:36,494 WARNING nicolas.esperto: modo esperto: IA indisponível (a IA não retornou texto)
+2026-10-21 14:13:36,518 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:36,592 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:36,923 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:37,177 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:37,482 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:37,786 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:38,123 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:38,159 WARNING nicolas.esperto: modo esperto: IA indisponível (a IA não retornou texto)
+2026-10-21 14:13:38,431 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:38,789 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:39,058 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:39,365 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:39,656 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:39,692 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:40,104 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:40,256 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:40,600 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:40,891 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:41,225 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:41,505 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:41,809 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:42,104 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:42,425 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:42,764 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:43,025 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:43,386 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:43,724 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:43,994 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:44,266 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:44,577 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:44,902 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:45,203 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:45,555 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:45,722 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:45,874 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:46,160 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:46,493 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:46,761 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:47,056 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:47,458 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:47,752 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:47,995 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:48,297 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:48,601 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:48,982 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:49,234 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:49,633 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:49,928 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:50,160 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:50,469 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:50,782 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:51,149 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:51,322 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:51,387 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:51,670 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:52,109 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:52,244 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:52,528 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:52,827 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:53,159 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:53,485 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:53,721 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:54,018 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:54,340 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:54,621 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:54,914 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:55,233 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:55,560 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:55,869 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:56,166 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:56,517 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:56,804 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:57,090 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:57,415 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:57,703 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:57,986 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:58,381 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:58,614 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:58,968 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:59,255 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:59,595 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:13:59,908 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:00,202 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:00,508 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:00,843 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:01,098 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:01,473 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:01,767 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:02,041 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:02,367 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:02,662 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:02,937 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:03,193 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:03,533 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:03,810 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:04,139 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:04,597 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:04,731 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:05,027 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:05,335 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:05,632 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:05,919 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:06,215 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:06,549 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:06,813 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:07,133 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:07,411 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:07,722 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:08,003 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:08,280 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:08,643 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:08,927 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:09,233 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:09,533 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:09,950 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:10,203 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:10,466 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:10,832 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:11,130 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:11,456 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:11,796 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:12,113 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:12,439 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:12,726 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:13,118 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:13,423 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:13,792 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:14,034 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:14,304 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:14,588 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:14,859 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:15,171 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:15,468 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:16,376 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:17,076 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:17,408 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:17,748 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:19,000 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:19,451 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:19,574 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:19,868 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:20,263 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:20,595 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:21,084 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:21,376 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:21,655 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:21,940 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:22,218 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:22,518 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:22,887 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:23,298 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:23,451 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:23,765 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:24,120 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:24,523 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:25,272 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:25,603 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:25,900 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:26,197 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:26,524 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:26,827 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:27,169 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:27,486 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:27,788 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:28,084 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:28,392 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:28,663 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:14:34,048 WARNING nicolas.esperto: modo esperto: IA indisponível (a IA não retornou texto)
+2026-10-21 14:14:35,490 WARNING nicolas.esperto: modo esperto: IA indisponível (a IA não retornou texto)
+2026-10-21 14:16:01,278 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:01,582 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:01,971 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:02,279 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:02,539 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:02,823 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:03,152 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:03,400 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:03,708 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:04,010 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:04,344 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:04,580 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:04,876 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:05,197 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:05,434 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:05,535 WARNING nicolas.esperto: modo esperto: IA indisponível (a IA não retornou texto)
+2026-10-21 14:16:05,754 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:06,032 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:06,406 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:06,747 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:07,029 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:07,280 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:07,611 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:07,886 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:08,194 WARNING nicolas.esperto: modo esperto: IA indisponível (a IA não retornou texto)
+2026-10-21 14:16:08,197 WARNING nicolas.esperto: modo esperto: IA indisponível (a IA não retornou texto)
+2026-10-21 14:16:08,224 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:08,441 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:08,757 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:09,059 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:09,413 WARNING nicolas.esperto: modo esperto: IA indisponível (a IA não retornou texto)
+2026-10-21 14:16:09,415 WARNING nicolas.esperto: modo esperto: IA indisponível (a IA não retornou texto)
+2026-10-21 14:16:09,447 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:09,673 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:09,946 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:10,258 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:10,567 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:10,880 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:11,172 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:11,497 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:11,793 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:12,114 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:12,166 WARNING nicolas.esperto: modo esperto: IA indisponível (a IA não retornou texto)
+2026-10-21 14:16:12,553 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:12,673 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:12,961 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:13,267 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:13,556 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:13,868 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:14,100 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:14,428 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:14,694 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:14,980 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:15,345 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:15,672 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:15,806 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:16,100 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:16,443 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:16,680 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:16,963 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:17,259 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:17,595 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:17,864 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:18,168 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:18,482 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:18,746 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:19,042 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:19,361 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:19,669 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:20,005 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:20,283 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:20,624 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:20,899 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:21,140 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:21,446 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:21,864 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:22,073 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:22,359 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:22,670 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:22,957 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:23,242 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:23,533 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:23,800 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:24,231 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:24,509 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:25,651 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:25,958 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:26,273 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:26,477 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:26,771 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:27,066 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:27,641 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:28,156 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:28,313 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:28,504 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:28,856 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:29,447 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:29,805 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:30,008 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:30,284 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:30,622 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:30,910 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:31,242 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:31,510 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:31,830 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:32,094 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:32,394 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:32,731 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:33,044 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:33,429 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:33,664 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:33,957 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:34,396 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:34,632 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:34,858 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:35,316 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:35,626 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:36,370 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:36,725 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:36,980 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:37,286 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:38,554 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:40,602 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:42,306 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:42,690 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:42,852 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:46,896 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:47,168 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:47,507 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:47,874 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:16:48,058 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:18:04,261 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:18:04,981 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:18:06,467 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:18:06,914 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:18:08,202 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:18:09,233 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:18:10,214 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:18:11,215 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:18:12,135 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:18:13,327 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:18:56,582 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:24:01,153 WARNING nicolas.esperto: modo esperto: IA indisponível (não foi possível conectar ao serviço)
+2026-10-21 14:24:04,529 WARNING nicolas.esperto: modo esperto: IA indisponível (não foi possível conectar ao serviço)
+2026-10-21 14:24:13,324 WARNING nicolas.esperto: modo esperto: IA indisponível (não foi possível conectar ao serviço)
+2026-10-21 14:27:02,887 WARNING nicolas.esperto: modo esperto: IA indisponível (a IA não retornou texto)
+2026-10-21 14:32:50,941 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:32:51,173 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:32:51,487 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:32:51,888 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:32:52,439 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:32:52,754 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:32:52,969 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:32:53,282 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:32:53,502 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:32:54,115 INFO nicolas.esperto: modo esperto: limite por minuto atingido, mensagem ignorada
+2026-10-21 14:32:54,901 WARNING nicolas.esperto: modo esperto: IA indisponível (a IA não retornou texto)
+2026-10-21 14:32:55,569 WARNING nicolas.esperto: modo esperto: IA indisponível (a IA não retornou texto)
+2026-10-21 14:32:56,612 WARNING nicolas.esperto: modo esperto: IA indisponível (a IA não retornou texto)
+2026-10-21 14:32:58,764 WARNING nicolas.esperto: modo esperto: IA indisponível (a IA não retornou texto)
+2026-10-21 14:32:59,344 WARNING nicolas.esperto: modo esperto: IA indisponível (a IA não retornou texto)
+2026-10-21 14:33:05,039 WARNING nicolas.esperto: modo esperto: IA indisponível (a IA não retornou texto)
+2026-10-21 14:59:24,929 INFO nicolas.backup: backup do banco salvo em nicolas-20261021-145924.db
+2026-10-21 15:00:57,128 INFO nicolas.backup: backup do banco salvo em nicolas-20261021-150057.db
+2026-10-21 15:02:05,985 INFO nicolas: agente: 6 comando(s) executado(s) a pedido de um admin
+2026-10-21 15:09:29,213 INFO nicolas.backup: backup do banco salvo em nicolas-20261021-150929.db
+2026-10-21 15:13:12,514 WARNING nicolas.esperto: modo esperto: IA indisponível (NetError)
+2026-10-21 15:16:04,411 WARNING nicolas.esperto: modo esperto: IA indisponível (NetError)
+2026-10-21 15:16:34,056 WARNING nicolas.esperto: modo esperto: IA indisponível (NetError)
+2026-10-21 15:21:38,532 WARNING nicolas.esperto: modo esperto: IA indisponível (NetError)
+2026-10-21 15:38:30,330 WARNING nicolas.esperto: modo esperto: IA indisponível (NetError)
+2026-10-21 15:40:20,698 WARNING nicolas.esperto: modo esperto: IA indisponível (NetError)
+2026-10-21 15:46:56,235 INFO nicolas.backup: backup do banco salvo em nicolas-20261021-154656.db
+2026-10-21 15:57:07,450 INFO nicolas.backup: backup do banco salvo em nicolas-20261021-155707.db
+2026-10-21 16:12:47,124 WARNING nicolas.esperto: modo esperto: IA indisponível (NetError)
+2026-10-21 16:25:14,739 INFO nicolas: DM de ...5113 ignorada: modo esperto desligado nesta conversa (o dono liga com /ativaesperto nela, ou /espertodm on para todas)
+2026-10-21 16:25:25,404 INFO nicolas: DM de ...5113 ignorada: modo esperto desligado nesta conversa (o dono liga com /ativaesperto nela, ou /espertodm on para todas)
+2026-10-21 16:26:00,327 INFO nicolas: DM de ...5113 ignorada: modo esperto desligado nesta conversa (o dono liga com /ativaesperto nela, ou /espertodm on para todas)
+2026-10-21 16:39:13,591 INFO nicolas.backup: backup do banco salvo em nicolas-20261021-163913.db
+2026-10-21 16:45:00,546 INFO nicolas.backup: backup do banco salvo em nicolas-20261021-164500.db
+2026-10-21 16:48:45,688 INFO nicolas.backup: backup do banco salvo em nicolas-20261021-164845.db
+2026-10-21 16:55:02,583 WARNING nicolas.esperto: modo esperto: IA indisponível (NetError)
+2026-10-21 16:57:49,707 WARNING nicolas.esperto: modo esperto: IA indisponível (NetError)
+2026-10-21 17:02:33,688 WARNING nicolas.esperto: modo esperto: IA indisponível (NetError)
+2026-10-21 20:41:26,178 INFO nicolas.backup: backup do banco salvo em nicolas-20261021-204126.db
+2026-10-23 11:20:31,292 INFO nicolas.backup: backup do banco salvo em nicolas-20261023-112031.db
+2026-10-23 11:22:21,318 WARNING nicolas.esperto: modo esperto: IA indisponível (NetError, HTTP 404)

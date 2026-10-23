@@ -1,0 +1,19 @@
+# systemd (VPS/Linux/Raspberry Pi). Ajuste User e caminho, depois:
+#   sudo cp deploy/robo-nicolas.service /etc/systemd/system/
+#   sudo systemctl enable --now robo-nicolas
+[Unit]
+Description=Robô Nicolas (bot de WhatsApp)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=nicolas
+WorkingDirectory=/home/nicolas/Robo-Nicolas
+ExecStart=/usr/bin/env bash start.sh
+Restart=always
+RestartSec=10
+KillMode=control-group
+
+[Install]
+WantedBy=multi-user.target

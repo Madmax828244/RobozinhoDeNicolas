@@ -1,0 +1,12 @@
+{
+  "name": "robo-nicolas",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Robô Nicolas 🤖 — bot de grupos para WhatsApp (Python + ponte Baileys)",
+  "scripts": {
+    "setup": "bash install.sh",
+    "start": "bash start.sh",
+    "check": "python3 -m nicolas check",
+    "test": "python3 -m nicolas test && cd bridge && node --test test/lib.test.js"
+  }
+}
